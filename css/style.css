@@ -1,0 +1,28 @@
+h1
+{
+    color:brown;
+}
+
+body
+{
+    background-color: orchid;
+}
+
+h1
+{
+    color:rgb(139, 16, 16):
+}
+
+a
+ {
+    text-decoration: none;
+    font-family: Impact;
+    padding: 10px;
+    font-size: 16pt;
+}
+
+a:hover
+{
+    color:red;
+    font-size:18pt;
+}
