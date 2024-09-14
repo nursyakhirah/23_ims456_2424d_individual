@@ -260,4 +260,38 @@ p {
   margin-left: 10%;
   margin-right: 10%;
 }
+.slider 
+{
+  width: 100%;
+  background-color:#f8e0c9;
+  align-content: center;
+  color:whitesmoke;
+  height: auto;
+  margin: auto;
+  padding: 0%;
+}
+
+.slider2 {
+  width: 100%;
+  background-color:#f8e0c9;
+  text-align: center;
+  height: 270px;
+}
+
+.slider4
+{
+  width: 100%;
+  background-color:#f8e0c9;
+  text-align: center;
+  height: 270px;
+}
+
+.slider5
+{
+  width: 100%;
+  background-color:#f8e0c9;
+  text-align: center;
+  height:auto;
+}
+
 
