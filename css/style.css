@@ -1,0 +1,262 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #f8e0c9;
+  background-image: url('image/Retro Smoke and Round Light Desktop Wallpapers.png');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+  width: 100%;
+  background-color: whitesmoke;
+  padding-bottom: 30px;
+}
+
+/* Titles and Headings */
+h1 {
+  font-family: 'Oswald', cursive;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  background-color: #f8e0c9;
+}
+
+h3 {
+  color: whitesmoke;
+  text-align: center;
+  font-family: monospace;
+  font-size: 200%;
+  background-color: #f8e0c9;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Links */
+a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #f8e0c9;
+  color: bisque;
+  font-size: 18pt;
+}
+
+a:active {
+  background-color: black;
+}
+
+/* Containers and Boxes */
+.container {
+  display: flex;
+  padding-left: 20px;
+}
+
+.box1, .box2, .box3 {
+  width: 33.33%;
+  background-color: #f8e0c9;
+  float: left;
+  margin-bottom: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  height: 400px;
+}
+
+.box4, .box5, .box6, .box7 {
+  width: 50%;
+  background-color: #f8e0c9;
+  padding: 20px;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  height: 1000px;
+  border: 1px dotted #f8e0c9;
+}
+
+.box8, .box9, .box10 {
+  width: 33.33%;
+  background-color: #f8e0c9;
+  padding: 20px;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  height: 500px;
+  border: 2px solid whitesmoke;
+  margin-bottom: 20px;
+}
+
+/* Flexbox */
+.centered-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box15 {
+  flex: 1;
+  width: 20%;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.box16 {
+  flex: 3;
+  width: 80%;
+  margin-right: 30px;
+  padding: 10px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 20px;
+  background-color: #003d80;
+  text-align: center;
+}
+
+.content-container2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: #003d80;
+}
+
+.box20 {
+  flex: 0 0 20%;
+  padding: 10px;
+}
+
+.box21 {
+  flex: 0 0 80%;
+  padding: 10px;
+}
+
+/* Tables */
+table, tr, td, th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+
+table {
+  margin: 20px auto;
+  width: 70%;
+}
+
+tr {
+  background-color: bisque;
+}
+
+tr:nth-child(odd) {
+  background-color: antiquewhite;
+}
+
+th {
+  background-color: beige;
+  color: black;
+}
+
+tr:hover {
+  background-color: #ffe0e9;
+}
+
+/* Images */
+.uitm-logo {
+  width: 150px;
+  height: 70px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 50%;
+  margin: 5px;
+}
+
+/* Video */
+video {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Skills Rating */
+.skill-rating {
+  background-color: white;
+  height: 20px;
+  width: 600px;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.fill {
+  background-color: black;
+  height: 20px;
+  padding-left: 40px;
+  color: white;
+}
+
+/* Animations */
+.news-heading h2 {
+  animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Miscellaneous */
+p {
+  text-align: center;
+  color: white;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
